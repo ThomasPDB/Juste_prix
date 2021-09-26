@@ -9,8 +9,8 @@ print("Bienvenue au Juste Prix !")
 print(f"Vous avez {compteur} points")
 
 # fourchette prix
-x = max(1, juste_prix - randint(10, 100))
-y = min(1000, juste_prix + randint(10, 100))
+x = max(1, juste_prix - randint(1, 1000))
+y = min(1000, juste_prix + randint(1, 1000))
 print(f"Le prix est entre {x} et {y}")
 
 
