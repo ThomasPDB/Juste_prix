@@ -47,5 +47,6 @@ while lancement:
     elif prix_client > juste_prix:
         print("C'est moins")
         compteur -= 1
-
+        
+    print(f"Vous avez {compteur} points")
 print("Fin du jeu")
